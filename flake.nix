@@ -21,6 +21,8 @@
         fd # for telescope
         curl # for blink.cmp
         git # for blink.cmp
+	nixd # nix language server
+
       ];
 
       neovim-wrapped = pkgs.wrapNeovimUnstable pkgs.neovim-unwrapped {
